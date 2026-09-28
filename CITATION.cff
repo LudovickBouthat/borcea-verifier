@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or its certificates, please cite the paper and this archive."
+title: "Verifier for \"A proof of Borcea's quadratic variance conjecture\""
+type: software
+authors:
+  - family-names: Bouthat
+    given-names: Ludovick
+    affiliation: "University of Delaware"
+  - family-names: Fallat
+    given-names: Shaun
+    affiliation: "University of Regina"
+version: 1.0.0
+date-released: 2026-09-28
+license:
+  - MIT
+  - CC-BY-4.0
+keywords:
+  - Borcea's conjecture
+  - Sendov's conjecture
+  - critical points of polynomials
+  - interval arithmetic
+  - computer-assisted proof
+abstract: >-
+  Exact replay of the computer-assisted part of the proof of Borcea's quadratic
+  variance conjecture: two certificates cover every degree 4 <= n <= 2047
+  (150,845 three-parameter regions for degrees 4-26 and 27,429 two-parameter
+  regions for degrees 27-2047), and the verifier re-checks every region with
+  directed integer interval arithmetic. Python 3.10+, standard library only.
+preferred-citation:
+  type: article
+  title: "A proof of Borcea's quadratic variance conjecture"
+  authors:
+    - family-names: Bouthat
+      given-names: Ludovick
+      affiliation: "University of Delaware"
+    - family-names: Fallat
+      given-names: Shaun
+      affiliation: "University of Regina"
+  year: 2026
+  status: preprint

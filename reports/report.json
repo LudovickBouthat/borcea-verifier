@@ -1,0 +1,648 @@
+{
+  "status": "PASS",
+  "degrees": [
+    4,
+    2047
+  ],
+  "restrictions_used": [
+    "(1)",
+    "(2)",
+    "(3)",
+    "(4)",
+    "(5)"
+  ],
+  "joint": {
+    "sha256": "8fb676db95c9e8d513d3fe2bc3ecc165444cee13e38c876abd834f169ab15c41",
+    "regions": 150845,
+    "per_degree": [
+      {
+        "n": 4,
+        "regions": 12604,
+        "exclusions": {
+          "derivative-product": 560,
+          "quartic-local": 858,
+          "restriction-3": 1283,
+          "dual:1": 8811,
+          "centered-coefficient": 735,
+          "restriction-5": 210,
+          "shifted:3/4": 27,
+          "shifted:5/8": 37,
+          "shifted:1/2": 72,
+          "shifted:7/8": 11
+        }
+      },
+      {
+        "n": 5,
+        "regions": 7435,
+        "exclusions": {
+          "derivative-product": 44,
+          "centered-coefficient-boundary": 57,
+          "centered-coefficient": 3225,
+          "restriction-3": 1458,
+          "dual:1": 1113,
+          "restriction-5": 204,
+          "shifted:3/4": 365,
+          "dual:3/4": 241,
+          "shifted:1/2": 220,
+          "shifted:5/8": 391,
+          "dual:1/2": 34,
+          "shifted:7/8": 81,
+          "shifted:3/8": 2
+        }
+      },
+      {
+        "n": 6,
+        "regions": 6902,
+        "exclusions": {
+          "derivative-product": 41,
+          "centered-coefficient-boundary": 28,
+          "centered-coefficient": 904,
+          "restriction-3": 939,
+          "centered-integral-boundary": 1,
+          "dual:1": 1016,
+          "restriction-5": 379,
+          "shifted:3/4": 878,
+          "dual:7/8": 639,
+          "shifted:1/2": 455,
+          "shifted:5/8": 861,
+          "dual:3/4": 583,
+          "shifted:7/8": 132,
+          "dual:1/2": 36,
+          "shifted:3/8": 10
+        }
+      },
+      {
+        "n": 7,
+        "regions": 14288,
+        "exclusions": {
+          "derivative-product": 46,
+          "restriction-3": 1853,
+          "shifted:3/4": 1675,
+          "shifted:5/8": 1870,
+          "dual:3/4": 2784,
+          "dual:1/2": 32,
+          "centered-coefficient": 326,
+          "centered-coefficient-boundary": 11,
+          "centered-integral-boundary": 8,
+          "centered-integral": 30,
+          "dual:1": 1063,
+          "restriction-5": 497,
+          "dual:7/8": 2883,
+          "shifted:7/8": 485,
+          "shifted:1/2": 686,
+          "shifted:3/8": 36,
+          "negative-D": 2,
+          "shifted:1/4": 1
+        }
+      },
+      {
+        "n": 8,
+        "regions": 16299,
+        "exclusions": {
+          "derivative-product": 45,
+          "centered-integral": 22,
+          "centered-coefficient": 389,
+          "restriction-3": 1397,
+          "dual:1": 696,
+          "shifted:7/8": 6471,
+          "shifted:3/4": 2901,
+          "restriction-5": 563,
+          "dual:3/4": 942,
+          "shifted:5/8": 1823,
+          "shifted:1/2": 894,
+          "centered-integral-boundary": 16,
+          "direct": 43,
+          "dual:1/2": 32,
+          "shifted:3/8": 60,
+          "shifted:1/4": 3,
+          "negative-D": 2
+        }
+      },
+      {
+        "n": 9,
+        "regions": 10095,
+        "exclusions": {
+          "derivative-product": 29,
+          "centered-coefficient-boundary": 3,
+          "centered-coefficient": 386,
+          "restriction-3": 580,
+          "centered-integral-boundary": 10,
+          "centered-integral": 23,
+          "shifted:7/8": 2121,
+          "dual:1": 429,
+          "restriction-5": 553,
+          "shifted:3/4": 2118,
+          "dual:3/4": 553,
+          "shifted:5/8": 1974,
+          "shifted:1/2": 1034,
+          "dual:1/2": 16,
+          "shifted:3/8": 89,
+          "direct": 172,
+          "negative-D": 2,
+          "shifted:1/4": 3
+        }
+      },
+      {
+        "n": 10,
+        "regions": 7935,
+        "exclusions": {
+          "derivative-product": 47,
+          "restriction-3": 531,
+          "centered-integral-boundary": 8,
+          "centered-coefficient": 247,
+          "centered-integral": 22,
+          "shifted:7/8": 796,
+          "dual:1": 308,
+          "shifted:3/4": 1514,
+          "dual:3/4": 430,
+          "shifted:5/8": 1977,
+          "direct": 453,
+          "shifted:1/2": 1003,
+          "shifted:3/8": 100,
+          "dual:1/2": 19,
+          "restriction-5": 470,
+          "negative-D": 5,
+          "shifted:1/4": 5
+        }
+      },
+      {
+        "n": 11,
+        "regions": 6299,
+        "exclusions": {
+          "derivative-product": 40,
+          "centered-coefficient": 225,
+          "restriction-3": 398,
+          "shifted:5/8": 1685,
+          "shifted:1/2": 908,
+          "centered-coefficient-boundary": 1,
+          "centered-integral": 21,
+          "centered-integral-boundary": 9,
+          "shifted:7/8": 445,
+          "dual:1": 236,
+          "shifted:3/4": 724,
+          "direct": 725,
+          "restriction-5": 439,
+          "dual:3/4": 314,
+          "dual:1/2": 6,
+          "shifted:3/8": 112,
+          "shifted:1/4": 6,
+          "negative-D": 5
+        }
+      },
+      {
+        "n": 12,
+        "regions": 4441,
+        "exclusions": {
+          "derivative-product": 35,
+          "centered-integral": 56,
+          "centered-coefficient": 119,
+          "shifted:3/4": 303,
+          "restriction-3": 265,
+          "shifted:7/8": 119,
+          "dual:1": 179,
+          "shifted:5/8": 1009,
+          "centered-coefficient-boundary": 1,
+          "centered-integral-boundary": 6,
+          "direct": 868,
+          "shifted:1/2": 819,
+          "dual:1/2": 19,
+          "dual:3/4": 207,
+          "shifted:3/8": 112,
+          "restriction-5": 308,
+          "shifted:1/4": 11,
+          "negative-D": 5
+        }
+      },
+      {
+        "n": 13,
+        "regions": 3437,
+        "exclusions": {
+          "derivative-product": 28,
+          "restriction-3": 206,
+          "centered-coefficient": 100,
+          "dual:1": 118,
+          "shifted:7/8": 63,
+          "shifted:3/4": 182,
+          "centered-coefficient-boundary": 1,
+          "centered-integral": 23,
+          "centered-integral-boundary": 7,
+          "direct": 829,
+          "restriction-5": 268,
+          "shifted:5/8": 591,
+          "shifted:1/2": 751,
+          "dual:3/4": 135,
+          "dual:1/2": 11,
+          "shifted:3/8": 104,
+          "shifted:1/4": 11,
+          "negative-D": 9
+        }
+      },
+      {
+        "n": 14,
+        "regions": 17030,
+        "exclusions": {
+          "derivative-product": 971,
+          "restriction-3": 1063,
+          "centered-integral": 32,
+          "centered-integral-boundary": 4,
+          "centered-coefficient": 178,
+          "shifted:3/4": 192,
+          "shifted:5/8": 495,
+          "direct": 925,
+          "shifted:7/8": 51,
+          "shifted:1/2": 12257,
+          "centered-coefficient-boundary": 1,
+          "restriction-5": 798,
+          "shifted:3/8": 46,
+          "negative-D": 11,
+          "shifted:1/4": 6
+        }
+      },
+      {
+        "n": 15,
+        "regions": 10536,
+        "exclusions": {
+          "derivative-product": 640,
+          "restriction-3": 752,
+          "centered-coefficient-boundary": 2,
+          "centered-coefficient": 172,
+          "centered-integral": 21,
+          "direct": 827,
+          "shifted:3/4": 152,
+          "shifted:7/8": 41,
+          "shifted:5/8": 368,
+          "shifted:1/2": 6901,
+          "centered-integral-boundary": 3,
+          "restriction-5": 601,
+          "shifted:3/8": 35,
+          "negative-D": 10,
+          "shifted:1/4": 11
+        }
+      },
+      {
+        "n": 16,
+        "regions": 5215,
+        "exclusions": {
+          "derivative-product": 317,
+          "restriction-3": 319,
+          "centered-integral-boundary": 6,
+          "centered-coefficient": 150,
+          "centered-integral": 13,
+          "direct": 771,
+          "shifted:7/8": 33,
+          "shifted:3/4": 141,
+          "shifted:5/8": 214,
+          "shifted:1/2": 2800,
+          "restriction-5": 396,
+          "shifted:3/8": 42,
+          "negative-D": 9,
+          "shifted:1/4": 4
+        }
+      },
+      {
+        "n": 17,
+        "regions": 3992,
+        "exclusions": {
+          "derivative-product": 242,
+          "restriction-3": 253,
+          "centered-coefficient": 118,
+          "restriction-5": 346,
+          "centered-integral-boundary": 4,
+          "centered-integral": 8,
+          "direct": 686,
+          "shifted:7/8": 29,
+          "shifted:3/4": 124,
+          "shifted:1/2": 1952,
+          "shifted:5/8": 169,
+          "shifted:3/8": 43,
+          "shifted:1/4": 8,
+          "negative-D": 10
+        }
+      },
+      {
+        "n": 18,
+        "regions": 3381,
+        "exclusions": {
+          "derivative-product": 189,
+          "restriction-3": 204,
+          "shifted:7/8": 26,
+          "centered-coefficient": 121,
+          "shifted:1/2": 1525,
+          "centered-integral-boundary": 4,
+          "direct": 640,
+          "centered-integral": 7,
+          "shifted:3/4": 117,
+          "shifted:5/8": 155,
+          "restriction-5": 332,
+          "shifted:3/8": 38,
+          "shifted:1/4": 8,
+          "negative-D": 15
+        }
+      },
+      {
+        "n": 19,
+        "regions": 2752,
+        "exclusions": {
+          "derivative-product": 187,
+          "restriction-3": 155,
+          "centered-integral": 8,
+          "centered-coefficient": 111,
+          "shifted:5/8": 133,
+          "centered-integral-boundary": 5,
+          "direct": 563,
+          "shifted:7/8": 23,
+          "shifted:3/4": 118,
+          "shifted:1/2": 1084,
+          "restriction-5": 305,
+          "centered-coefficient-boundary": 1,
+          "shifted:3/8": 35,
+          "shifted:1/4": 7,
+          "negative-D": 17
+        }
+      },
+      {
+        "n": 20,
+        "regions": 3366,
+        "exclusions": {
+          "derivative-product": 193,
+          "centered-coefficient": 155,
+          "restriction-3": 556,
+          "shifted:7/8": 18,
+          "shifted:5/8": 136,
+          "shifted:1/2": 1232,
+          "centered-coefficient-boundary": 4,
+          "centered-integral": 6,
+          "direct": 517,
+          "restriction-5": 373,
+          "shifted:3/4": 117,
+          "shifted:3/8": 30,
+          "shifted:1/4": 12,
+          "negative-D": 17
+        }
+      },
+      {
+        "n": 21,
+        "regions": 3041,
+        "exclusions": {
+          "derivative-product": 235,
+          "restriction-3": 495,
+          "centered-coefficient": 144,
+          "shifted:7/8": 14,
+          "shifted:5/8": 111,
+          "shifted:1/2": 1039,
+          "centered-coefficient-boundary": 6,
+          "centered-integral": 7,
+          "direct": 480,
+          "shifted:3/4": 117,
+          "shifted:3/8": 27,
+          "restriction-5": 345,
+          "shifted:1/4": 7,
+          "negative-D": 14
+        }
+      },
+      {
+        "n": 22,
+        "regions": 2812,
+        "exclusions": {
+          "derivative-product": 184,
+          "restriction-3": 483,
+          "centered-coefficient": 148,
+          "shifted:7/8": 15,
+          "shifted:5/8": 111,
+          "shifted:1/2": 919,
+          "centered-coefficient-boundary": 7,
+          "direct": 453,
+          "centered-integral": 2,
+          "shifted:3/4": 112,
+          "restriction-5": 327,
+          "shifted:3/8": 28,
+          "shifted:1/4": 9,
+          "negative-D": 14
+        }
+      },
+      {
+        "n": 23,
+        "regions": 2562,
+        "exclusions": {
+          "derivative-product": 133,
+          "restriction-3": 466,
+          "centered-coefficient": 138,
+          "shifted:7/8": 17,
+          "shifted:3/4": 111,
+          "shifted:1/2": 813,
+          "centered-coefficient-boundary": 5,
+          "centered-integral": 6,
+          "direct": 419,
+          "shifted:5/8": 112,
+          "restriction-5": 295,
+          "shifted:3/8": 31,
+          "shifted:1/4": 4,
+          "negative-D": 12
+        }
+      },
+      {
+        "n": 24,
+        "regions": 2365,
+        "exclusions": {
+          "derivative-product": 152,
+          "restriction-3": 443,
+          "centered-coefficient": 127,
+          "shifted:7/8": 14,
+          "shifted:3/4": 99,
+          "shifted:1/2": 663,
+          "centered-coefficient-boundary": 4,
+          "centered-integral": 4,
+          "direct": 409,
+          "shifted:5/8": 117,
+          "shifted:3/8": 26,
+          "restriction-5": 287,
+          "shifted:1/4": 5,
+          "negative-D": 15
+        }
+      },
+      {
+        "n": 25,
+        "regions": 2160,
+        "exclusions": {
+          "derivative-product": 157,
+          "restriction-3": 375,
+          "centered-coefficient": 122,
+          "direct": 375,
+          "shifted:7/8": 18,
+          "shifted:3/4": 105,
+          "shifted:1/2": 553,
+          "centered-coefficient-boundary": 6,
+          "centered-integral": 4,
+          "restriction-5": 277,
+          "shifted:5/8": 118,
+          "shifted:3/8": 23,
+          "shifted:1/4": 8,
+          "negative-D": 19
+        }
+      },
+      {
+        "n": 26,
+        "regions": 1898,
+        "exclusions": {
+          "derivative-product": 99,
+          "restriction-3": 317,
+          "centered-coefficient": 116,
+          "direct": 367,
+          "shifted:7/8": 24,
+          "shifted:3/4": 100,
+          "shifted:1/2": 430,
+          "centered-coefficient-boundary": 7,
+          "restriction-5": 267,
+          "centered-integral": 2,
+          "shifted:5/8": 116,
+          "shifted:3/8": 24,
+          "shifted:1/4": 6,
+          "negative-D": 23
+        }
+      }
+    ]
+  },
+  "blocks": {
+    "sha256": "69fe29be74825b9dba78e08c637e3ff57603cc5224f54dec17453929e59a76a8",
+    "regions": 27429,
+    "per_block": [
+      {
+        "nlo": 27,
+        "nhi": 27,
+        "quadrature": "geometric",
+        "regions": 1885,
+        "exclusions": {
+          "derivative-product": 261,
+          "direct": 1546,
+          "centered-monotone": 8,
+          "restriction-5": 70
+        }
+      },
+      {
+        "nlo": 28,
+        "nhi": 31,
+        "quadrature": "uniform",
+        "regions": 3082,
+        "exclusions": {
+          "derivative-product": 447,
+          "direct": 2490,
+          "centered-monotone": 15,
+          "restriction-5": 127,
+          "domain": 3
+        }
+      },
+      {
+        "nlo": 32,
+        "nhi": 47,
+        "quadrature": "uniform",
+        "regions": 4938,
+        "exclusions": {
+          "derivative-product": 558,
+          "direct": 3766,
+          "centered-monotone": 23,
+          "restriction-5": 574,
+          "domain": 17
+        }
+      },
+      {
+        "nlo": 48,
+        "nhi": 71,
+        "quadrature": "uniform",
+        "regions": 5461,
+        "exclusions": {
+          "derivative-product": 257,
+          "direct": 3776,
+          "centered-monotone": 4,
+          "restriction-5": 1387,
+          "domain": 37
+        }
+      },
+      {
+        "nlo": 72,
+        "nhi": 107,
+        "quadrature": "uniform",
+        "regions": 1247,
+        "exclusions": {
+          "derivative-product": 169,
+          "direct": 883,
+          "centered-monotone": 2,
+          "restriction-5": 193
+        }
+      },
+      {
+        "nlo": 108,
+        "nhi": 161,
+        "quadrature": "uniform",
+        "regions": 1267,
+        "exclusions": {
+          "derivative-product": 160,
+          "direct": 795,
+          "centered-monotone": 3,
+          "restriction-5": 309
+        }
+      },
+      {
+        "nlo": 162,
+        "nhi": 242,
+        "quadrature": "uniform",
+        "regions": 1814,
+        "exclusions": {
+          "derivative-product": 187,
+          "direct": 1016,
+          "centered-monotone": 3,
+          "restriction-5": 539,
+          "domain": 69
+        }
+      },
+      {
+        "nlo": 243,
+        "nhi": 302,
+        "quadrature": "geometric",
+        "regions": 1445,
+        "exclusions": {
+          "derivative-product": 63,
+          "direct": 806,
+          "centered-monotone": 1,
+          "restriction-5": 575
+        }
+      },
+      {
+        "nlo": 303,
+        "nhi": 605,
+        "quadrature": "geometric",
+        "regions": 1536,
+        "exclusions": {
+          "derivative-product": 334,
+          "direct": 1071,
+          "centered-monotone": 1,
+          "restriction-5": 130
+        }
+      },
+      {
+        "nlo": 606,
+        "nhi": 1211,
+        "quadrature": "geometric",
+        "regions": 2202,
+        "exclusions": {
+          "derivative-product": 604,
+          "direct": 1440,
+          "centered-monotone": 1,
+          "restriction-5": 157
+        }
+      },
+      {
+        "nlo": 1212,
+        "nhi": 2047,
+        "quadrature": "geometric",
+        "regions": 2552,
+        "exclusions": {
+          "derivative-product": 589,
+          "direct": 1823,
+          "centered-monotone": 3,
+          "restriction-5": 137
+        }
+      }
+    ]
+  },
+  "seconds": 188.2
+}

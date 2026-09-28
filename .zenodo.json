@@ -1,0 +1,13 @@
+{
+  "title": "Verifier for \"A proof of Borcea's quadratic variance conjecture\"",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "creators": [
+    {"name": "Bouthat, Ludovick", "affiliation": "University of Delaware"},
+    {"name": "Fallat, Shaun", "affiliation": "University of Regina"}
+  ],
+  "description": "<p>Exact replay of the computer-assisted part of the proof of Borcea's quadratic variance conjecture (L. Bouthat and S. Fallat, <em>A proof of Borcea's quadratic variance conjecture</em>, 2026).</p><p>Two certificates cover every degree 4 &le; n &le; 2047: 150,845 three-parameter regions for degrees 4&ndash;26 and 27,429 two-parameter regions for degrees 27&ndash;2047. The verifier rebuilds every region from the certificate trees and re-checks each one with directed integer interval arithmetic. Python 3.10 or later, standard library only; run <code>python verify_all.py</code>.</p><p>Code: MIT License. Certificates and report: CC BY 4.0.</p>",
+  "license": "mit",
+  "keywords": ["Borcea's conjecture", "Sendov's conjecture", "critical points of polynomials", "interval arithmetic", "computer-assisted proof"],
+  "notes": "SHA-256 of certificates/joint.json: 8fb676db95c9e8d513d3fe2bc3ecc165444cee13e38c876abd834f169ab15c41. SHA-256 of certificates/blocks.json: 69fe29be74825b9dba78e08c637e3ff57603cc5224f54dec17453929e59a76a8. The certificates and the report are licensed under CC BY 4.0 (see LICENSE-DATA.md)."
+}
